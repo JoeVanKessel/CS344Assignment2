@@ -284,7 +284,6 @@ struct Room **MakeRoomsInit(){
   struct Room **ptr;
   ptr = malloc(sizeof(struct Room**));
   ptr = ptr_array;
-  int i;
   for (i=0; i < 7; i++){
     ptr[i] = malloc(sizeof(struct Room*));
   }
